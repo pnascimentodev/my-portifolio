@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="scripts/menu.js" defer></script>
+    
+    <title>Priscila N.</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/images/logo2.png" alt="Logo Priscila" href="index.html">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="pages/skills.html">Skills</a></li>
+                    <li><a href="pages/projects.html">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <button id="openModalBtn">Contato</button>
+            </div>
+            
+            <!-- Modal -->
+            <div id="contactModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Contato</h2>
+                    <div class="contact-cards">
+                        <div class="card">
+                            <h3><i class="fas fa-envelope"></i> Email</h3>
+                            <p>pnascimento2808@gmail.com</p>
+                        </div>
+
+                        <div class="card">
+                            <h3><i class="fas fa-phone"></i> Telefone</h3>
+                            <p>+55 (81) 9 9200-6647</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="pages/skills.html">Skills</a></li>
+                        <li><a href="pages/projects.html">Projetos</a></li>
+                        <li><a href="#" id="openModalMenu">Contato</a></li> 
+                    </ul>
+                </nav>
+            </div>
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+    </header>
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>TRANSFORMANDO IDEIAS EM <span>EXPERIÊNCIAS VIRTUAIS</span>.</h1>
+                        <p>Combinando design intuitivo e tecnologias inovadoras, desenvolvo soluções dinâmicas e personalizadas que superam expectativas. Meu compromisso é criar experiências memoráveis, sempre focando na otimização para resultados, garantindo que cada projeto atinja seus objetivos e impulsione o sucesso do negócio.</p>
+                        <div class="btn-contato">
+                            <a href="https://www.linkedin.com/in/devpnascimento/" target="_blank">
+                                <button>Transforme sua Ideia!</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="assets/images/icon2.png" alt="Descrição da Imagem">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">RESUMO <span>SKILLS</span>.</h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-slash"></i>
+                        <h3 class="box-title">FullStack</h3>
+                        <p class="box-description">Node.js e React com sólida experiência em desenvolvimento de aplicações web.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-phone"></i>
+                        <h3 class="box-title">Mobile</h3>
+                        <p class="box-description">Flutter e React Native, focando no desenvolvimento de aplicações móveis.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-database-fill-lock"></i>
+                        <h3 class="box-title">DevOps</h3>
+                        <p class="box-description">Docker, AWS, SQL e Git com uma base sólida para garantir eficiência das aplicações.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sobre">
+            <div>
+                <div class="interface">
+                    <div class="flex">
+                        <div class="img-sobre">
+                            <img src="assets/images/sobre.png" alt="Imagem sobre Priscila">
+                        </div>
+                        <div class="txt-sobre">
+                            <h2>MUITO PRAZER, SOU A <span>PRISCILA NASCIMENTO</span></h2>
+                            <p>Tenho uma sólida experiência em desenvolvimento de aplicativos móveis e backend. Minha trajetória abrange desde a implementação de soluções de software até a integração de APIs e suporte técnico, contribuindo para projetos de diferentes magnitudes e complexidades. Sou natural de Recife - Pernambuco, formada em redes de computadores, juntamente com MBA de Eng.Software. Uma curiosidade é que eu amo pets, e por isso tenho 5 gatos e 2 cachorras.</p>
+                            <div class="btn-social">
+                                <a href="https://www.linkedin.com/in/devpnascimento/" target="_blank">
+                                    <button><i class="bi bi-linkedin"></i></button>
+                                </a>
+                                <a href="https://github.com/pnascimentodev" target="_blank">
+                                    <button><i class="bi bi-github"></i></button>
+                                </a>
+                                <a href="https://wa.me/5511999998888." target="_blank">
+                                    <button><i class="bi bi-whatsapp"></i></button>
+                                </a>
+                                <a href="mailto:pnascimento2808@gmail.com" target="_blank">
+                                    <button><i class="bi bi-envelope-at"></i></button>
+                                </a>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS</span>.</h2>
+                <div class="flex">
+                    <a href="https://github.com/pnascimentodev/supportchat" target="_blank">
+                        <div class="img-port webchatapp" onmouseover="hoverImage(this)" onmouseout="resetImage(this)">
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/pnascimentodev" target="_blank">
+                        <div class="img-port flick-app" onmouseover="hoverImage(this)" onmouseout="resetImage(this)">
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/pnascimentodev/lummi-desafio" target="_blank">
+                        <div class="img-port senseenergy" onmouseover="hoverImage(this)" onmouseout="resetImage(this)">
+                        </div>
+                    </a>                                      
+                </div>
+            </div>
+        </section>
+        <script src="scripts/portfolio.js" defer></script>
+        
+    </main>
+
+    <footer style="border-top: 2px solid #7003fa; color: #ffffff; padding: 20px; text-align: center; margin-top: 50px;">
+
+        <div>
+            <p>&copy; 2024 Priscila Nascimento.</p>
+            
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

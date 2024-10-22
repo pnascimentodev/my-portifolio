@@ -1,0 +1,93 @@
+/* Estilo para a seção de projetos */
+.projects-section {
+    padding: 40px 0;
+}
+
+.project-box {
+    color: #fff;
+    padding: 20px;
+    margin-top: 45px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    transition: .2s;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+.project-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #6e03fa83;
+    background-color: #6e03fa15;
+}
+
+.project-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-details {
+    margin-left: 20px;
+    max-width: 600px;
+}
+
+.project-details h3 {
+    font-family: 'Protest Strike';
+    font-weight: 400;
+    text-align: left;
+    font-size: 32px;
+    text-align: center;
+}
+
+.project-details p {
+    font-family: "Share Tech", sans-serif;
+    padding-top: 20px;
+    font-weight: 400;
+    text-align: justify;
+    max-width: 400px;
+    line-height: 1.3;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.icon-container svg {
+    width: 40px;               
+    height: 40px;               
+    fill: #8257E6;        
+    transition: transform 0.3s; 
+}
+
+.icon-container svg:hover {
+    transform: scale(1.1); 
+    fill: #fff;
+}
+
+
+@media screen and (max-width: 1020px) {
+    .project-box {
+        flex-direction: column; /* Muda o layout para colunar em telas menores */
+    }
+
+    .project-details h3 {
+        font-size: 24px; /* Reduz o tamanho do título ainda mais */
+    }
+
+    .project-image img {
+        max-width: 100%; /* Faz a imagem ocupar toda a largura disponível */
+    }
+
+    .project-details p {
+        text-align: center; /* Centraliza o texto em telas menores */
+        font-size: 16px; /* Diminui o texto para uma melhor leitura em mobile */
+    }
+}

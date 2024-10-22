@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/skills.css">
+    <script src="../scripts/menu.js" defer></script>
+    <title>Skills - Priscila N.</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/images/logo2.png" alt="Logo Priscila">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <button id="openModalBtn">Contato</button>
+            </div>
+            <div id="contactModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Contato</h2>
+                    <div class="contact-cards">
+                        <div class="card">
+                            <h3><i class="fas fa-envelope"></i> Email</h3>
+                            <p>pnascimento2808@gmail.com</p>
+                        </div>
+
+                        <div class="card">
+                            <h3><i class="fas fa-phone"></i> Telefone</h3>
+                            <p>+55 (81) 9 9200-6647</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Início</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="projects.html">Projetos</a></li>
+                        <li><a href="#" id="openModalMenu">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>SKILLS</span>.</h2>
+                <div class="flex">
+                    <div class="especialidades-grid">
+                        <div class="especialidades-left">
+                            <div class="especialidades-box-skills">
+                                <div class="icon-title">
+                                    <h3 class="box-title-skills">FullStack</h3>
+                                    <i class="bi bi-code-slash"></i>
+                                </div>
+                                <p class="box-description-skills">Como desenvolvedora Fullstack tenho uma sólida experiência em JavaScript, HTML e CSS, além de expertise em Node.js e React. Tenho habilidades em criação e integração de APIs, gerenciamento de estado e otimização de processos para garantir aplicações eficientes e escaláveis. Minha abordagem prática se concentra na resolução de problemas e na busca por resultados eficazes.</p>
+                            </div>                    
+                            <div class="especialidades-box-skills">
+                                <div class="icon-title">
+                                    <h3 class="box-title-skills">DevOps</h3>
+                                    <i class="bi bi-database-lock"></i>
+                                </div>
+                                <p class="box-description-skills">Carrego na bagagem habilidades em Docker, AWS, SQL e Git, focando em garantir a eficiência e a escalabilidade das aplicações. Minha experiência inclui a automação de processos de desenvolvimento e implantação, além da otimização de ambientes de produção. Tenho uma abordagem analítica para a solução de problemas e estou sempre em busca de melhorias contínuas nos fluxos de trabalho.</p>
+                            </div>
+                        </div>
+                    
+                        <div class="especialidades-right">
+                            <div class="especialidades-box-skills">
+                                <div class="icon-title">
+                                    <h3 class="box-title-skills">Mobile</h3>
+                                    <i class="bi bi-phone"></i>
+                                </div>
+                                <p class="box-description-skills">Em Mobile eu sigo com ampla experiência em Flutter e React Native, especializada no desenvolvimento de aplicações móveis. Minha expertise inclui a criação de interfaces intuitivas e a integração eficiente de APIs, visando sempre uma experiência do usuário otimizada. Estou focada na resolução de desafios técnicos e na implementação de soluções inovadoras.</p>
+                            </div>                    
+                            <div class="especialidades-box-skills">
+                                <div class="icon-title">
+                                    <h3 class="box-title-skills">Idiomas</h3>
+                                    <i class="bi bi-globe-americas"></i>
+                                </div>
+                                <p class="box-description-skills">Falo português nativo, com espanhol avançado e inglês intermediário. Essa combinação de idiomas me permite comunicar-me efetivamente em ambientes multilíngues e colaborar com equipes diversas, ampliando as possibilidades de interação em projetos internacionais.</p>
+                            </div>
+                        </div>
+                    </div>                    
+            </div>
+        </section>
+
+        <section class="tecnologias">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>TECNOLOGIAS</span>.</h2>
+                <div class="skills-container">
+                    <div class="box-skill">
+                        <h3>HTML5</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#html5"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="box-skill">
+                        <h3>CSS3</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#css3"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="box-skill">
+                        <h3>JavaScript</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#javascript"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="box-skill">
+                        <h3>TypeScript</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#typescript"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="box-skill">
+                        <h3>React.js</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#react"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="box-skill">
+                        <h3>Node.js</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#nodedotjs"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="box-skill">
+                        <h3>Flutter</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#flutter"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="box-skill">
+                        <h3>Docker</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#docker"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="box-skill">
+                        <h3>Firebase</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#firebase"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="box-skill">
+                        <h3>AWS</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#amazonwebservices"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="box-skill">
+                        <h3>MySQL</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#mysql"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="box-skill">
+                        <h3>Figma</h3>
+                        <div class="icon-container">
+                            <svg role="img">
+                                <use xlink:href="/icons.svg#figma"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </main>
+
+    <footer style="border-top: 2px solid #7003fa; color: #ffffff; padding: 20px; text-align: center; margin-top: 50px;">
+
+        <div>
+            <p>&copy; 2024 Priscila Nascimento.</p>
+            
+        </div>
+    </footer>
+    
+</body>
+</html>

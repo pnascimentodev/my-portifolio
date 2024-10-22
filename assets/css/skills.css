@@ -1,0 +1,202 @@
+section.especialidades {
+    padding: 5px 4%;
+}
+
+section.tecnologias {
+    padding: 40px 4%;
+}
+
+h2.titulo {
+    text-align: center;
+}
+
+h3.box-title-skills {
+    font-family: 'Protest Strike';
+    font-weight: 400;
+    text-align: left;
+    font-size: 32px;
+}
+
+p.box-description-skills {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    max-width: 400px;
+    line-height: 1.3;
+}
+
+.flex {
+    display: block;
+}
+
+.especialidades-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.especialidades-left, .especialidades-right {
+    width: 45%;
+}
+
+.especialidades-box-skills {
+    color: #fff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    transition: .2s;
+}
+
+.especialidades-box-skills:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #6e03fa83;
+    background-color: #6e03fa15;
+}
+
+.icon-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px;
+}
+
+.icon-title i {
+    font-size: 100px;
+    color: #7003fa;
+    margin: 15Px 0;
+}
+
+.especialidades-box-skills h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.especialidades-box-skills p {
+    margin: 0;
+    text-align: justify;
+}
+
+.skills-container {
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; /* Aumente o valor conforme necessário */
+}
+
+.box-skill {
+    flex: 0 1 calc(16.66% - 40px); /* Ajuste o valor para compensar as margens */
+    height: 120px;
+    background-color: #13131F;
+    border-top-left-radius: 40px;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 4px 10px #1a015e;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+
+.box-skill h3 {
+    color: #8257E6;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.icon-container svg {
+    width: 40px; /* Ajuste a largura do ícone */
+    height: 40px; /* Mantenha a altura do ícone */
+    fill: #8257E6; /* Altera a cor do ícone */
+}
+
+.box-skill::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #8257E6;
+    border-bottom-left-radius: 20px;
+}
+
+.box-skill:hover {
+    transform: scale(1.15);
+}
+
+@media screen and (max-width: 1020px) {
+    section.especialidades,
+    section.tecnologias {
+        padding: 20px 2%; /* Reduz o padding em telas menores */
+    }
+
+    h3.box-title-skills {
+        font-size: 28px; /* Reduz o tamanho do título */
+        text-align: center; /* Centraliza o texto em telas menores */
+    }
+
+    p.box-description-skills {
+        max-width: 100%; /* Permite que o texto ocupe toda a largura disponível */
+        text-align: center; /* Centraliza o texto em telas menores */
+    }
+
+    .especialidades-grid {
+        flex-direction: column; /* Empilha os elementos em vez de lado a lado */
+        gap: 20px; /* Adiciona espaço entre os elementos */
+    }
+
+    .especialidades-left,
+    .especialidades-right {
+        width: 100%; /* Faz as colunas ocuparem 100% da largura */
+    }
+
+    .especialidades-box-skills {
+        padding: 20px; /* Reduz o padding */
+        text-align: center; /* Centraliza o conteúdo */
+        flex-direction: column; /* Empilha o conteúdo verticalmente */
+        margin-top: 20px;
+    }
+
+    .icon-title {
+        margin-right: 0; /* Remove a margem para alinhar o conteúdo */
+        align-items: center; /* Centraliza o ícone no eixo vertical */
+    }
+
+    .icon-title i {
+        font-size: 80px; /* Diminui o tamanho do ícone */
+        margin: 10px 0;
+    }
+
+    .especialidades-box-skills h3 {
+        font-size: 24px; /* Diminui o tamanho do texto do título */
+        margin-top: 20px; /* Adiciona margem para separar do ícone */
+    }
+
+    .skills-container {
+        padding: 20px; /* Reduz o padding */
+        gap: 20px; /* Reduz o espaço entre os itens */
+        justify-content: center; /* Centraliza os itens */
+    }
+
+    .box-skill {
+        flex: 0 1 calc(33.33% - 20px); /* Ajusta para 3 itens por linha */
+        height: 100px; /* Reduz a altura dos boxes */
+    }
+
+    .box-skill h3 {
+        font-size: 16px; /* Reduz o tamanho do texto */
+    }
+
+    .icon-container svg {
+        width: 30px; /* Ajusta a largura do ícone */
+        height: 30px; /* Ajusta a altura do ícone */
+    }
+}
