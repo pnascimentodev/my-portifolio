@@ -504,6 +504,10 @@ section.sobre .flex {
         text-align: center;
     }
 
+    .btn-social i{
+        color: #000;
+    }
+
     .img-sobre img{
         width: 100%;
     }
